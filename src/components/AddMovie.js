@@ -34,6 +34,8 @@ function AddMovie(props) {
         <textarea rows='5' id='opening-text' ref={openingTextRef}></textarea>
       </div>
     
+
+    
       <div className={classes.control}>
         <label htmlFor='date'>Release Date</label>
         <input type='date' id='date' ref={releaseDateRef} />
